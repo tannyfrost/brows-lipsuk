@@ -15102,7 +15102,8 @@ p.sub-title {
 /* Dots.png was causing error 404 in the website, seems it is not present in the images folder */
 .zs-enabled.overlay-dots .zs-slideshow:after {
   /* background: url(../images/dots.png); */
-  /* background: url(../images/img1.jpg); */
+  background-image: radial-gradient(rgba(0,0,0,0.3) 1px, transparent 1px);
+  background-size: 3px 3px; /* controls how close the dots are */
   
 }
 
