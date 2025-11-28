@@ -15099,8 +15099,11 @@ p.sub-title {
   background: transparent none repeat 0 0;
 }
 
+/* Dots.png was causing error 404 in the website, seems it is not present in the images folder */
 .zs-enabled.overlay-dots .zs-slideshow:after {
-  background: url(../images/dots.png);
+  /* background: url(../images/dots.png); */
+  /* background: url(../images/img1.jpg); */
+  
 }
 
 #demo-1 {
